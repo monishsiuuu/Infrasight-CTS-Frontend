@@ -1,0 +1,45 @@
+.list_box{
+    width:80%;
+    /* height:25%; */
+    display:flex;
+    padding:1.5rem;
+    flex-direction: column; 
+    /* background-color: #18314F; */
+    background-color: #212529;
+    color:#fff;
+    justify-content: space-between;
+    /* border-radius:2% */
+    margin:0.5rem;
+    /* margin:1rem; */
+}
+.box_stats{
+    display:flex;
+    justify-content: space-between;
+}
+.stats_cpu{
+    width:15%;
+    height:40%;
+    padding:1rem;
+    border-radius: 12%;
+    background-color:#4a4a4b;
+}
+.stats_disk{
+    width:15%;
+    height:40%;
+    padding:1rem;
+    border-radius: 12%;
+    background-color:#4a4a4b;
+}
+.stats_ram{
+    width:15%;
+    height:40%;
+    padding:1rem;
+    border-radius: 12%;
+    background-color:#4a4a4b;
+}
+.box_heading{
+    font-size: 1.25rem;
+    font-weight:500;
+    padding:0;
+    margin-bottom: 0;
+}

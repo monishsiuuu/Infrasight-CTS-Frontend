@@ -1,0 +1,85 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.list_items{
+  padding:1rem 2rem;
+  width:70%;
+  margin:1rem;
+  background-color:#3185FC;
+  color:white;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.list_items:hover{
+  border:2px solid #3185FC;
+  color:#3185FC;
+  background-color: transparent;
+}
+.selected{
+  padding:1rem 2rem;
+  width:70%;
+  margin:1rem;
+  border:2px solid #3185FC;
+  color:#3185FC;
+  background-color: transparent;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.nav-btn{
+  width:100px;
+  margin:2rem;
+  padding:1rem 1.5rem;
+  border-radius:12px;
+  background-color: #3185FC;
+  color:white;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+.listpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.loading_screen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height:79.7vh;
+  background-color: black;
+ 
+}
+.console_output{
+  background-color: #000;
+  color:#fff;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.console_btn{
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.filter_container{
+  display: flex;
+  justify-content: flex-end;
+  z-index: 0;
+}
+.dialog_heading{
+  margin:0;
+  padding:0;
+}
+.flowchart{
+  width:100%;
+  height:100vh;
+}
+.project_container{
+  background-color: #000;
+  height:95vh;
+}

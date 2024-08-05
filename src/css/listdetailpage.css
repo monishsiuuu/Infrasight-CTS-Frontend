@@ -1,0 +1,71 @@
+.listdetail-box{
+    border: 1px solid black;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    padding: 20px;
+}
+
+.detail-title{
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.detail-subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#partition-left{
+    text-align: left;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: large;
+    font-weight: 500;
+}
+
+#partition-right{
+    margin-top: 80px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.detail-add-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .listdetail-box {
+        width: 90vw; /* Adjust the width for smaller screens */
+    }
+
+    #partition-left, #partition-right {
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .detail-add-button {
+        width: 80px; /* Adjust button width for smaller screens */
+        margin-top: 20px; /* Adjust margin for spacing */
+    }
+}

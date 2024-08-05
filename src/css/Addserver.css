@@ -1,0 +1,140 @@
+
+.login-container1 {
+    /* background: url(../assests/back4.jpg); */
+    height: 100vh;
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box1 {
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 40px; /* Increase the padding for a larger form */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 800px;
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid rgb(4, 4, 4);
+    box-shadow: 5px 2px 2px 4px rgb(197, 197, 197);
+    color: black;
+  }
+
+
+  #loga{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #pad-gap{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .login-title1 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Lilita One', cursive;
+    animation: blink 3s infinite;
+  }
+  .login-form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="number"] {
+    padding: 15px; /* Increase the padding for larger input fields */
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  
+  .login-button1 {
+    background-color: #000000;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 700;
+  }
+  .textarea{
+    border: 1px solid rgb(98, 98, 98);
+  }
+  .login-button1:hover {
+    background-color: #2a6fcf;
+    font-weight: 700;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0; /* Fully transparent */
+    }
+    100% {
+      opacity: 1; /* Fully visible */
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .login-container1 {
+      justify-content: flex-start;
+      padding: 20px;
+      margin-bottom: 40%;
+      margin-top: 40%;
+    }
+  
+    .login-box1 {
+      width: 100%;
+      padding: 20px;
+      height: auto;
+      box-shadow: none;
+    }
+  
+    /* Reduce padding and margin for smaller screens */
+    #loga,
+    #pad-gap {
+      padding: 10px;
+      margin: 5px;
+    }
+  
+    /* Adjust font size for smaller screens */
+    .login-title1 {
+      font-size: 20px;
+    }
+  
+    /* Increase padding for form inputs */
+    input[type="text"],
+    input[type="password"],
+    input[type="number"] {
+      padding: 10px;
+    }
+  }

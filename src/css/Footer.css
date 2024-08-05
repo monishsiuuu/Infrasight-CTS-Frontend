@@ -1,0 +1,38 @@
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top :1px solid white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; /* Arrange columns with equal spacing */
+    align-items: center;
+    flex-wrap: wrap; /* Allow columns to wrap to the next line on smaller screens */
+}
+
+.column {
+    flex: 1; /* Equal width for all columns */
+    text-align: center;
+}
+
+.contact, .copyright, .social-icons {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: gray;
+}
